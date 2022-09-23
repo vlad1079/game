@@ -18,6 +18,15 @@ function drawBall () {
   if(ballX > (480 - ballRadius)) {
     dX = -dX;
   }
+  else if(ballX < (0 + ballRadius)) {
+    dX = -dX;
+  }
+  if(ballY > (320 - ballRadius)) {
+    dY = -dY;
+  }
+  else if(ballY < (0 + ballRadius)) {
+    dY = -dY;
+  }
 
 }
 
